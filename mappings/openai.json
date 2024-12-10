@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/openai"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"service\": \"Openai\", \"status\": \"Ok\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/dynadot"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"service\": \"Dynadot\", \"status\": \"Ok\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

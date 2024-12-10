@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/keitaro"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"service\": \"Keitaro\", \"status\": \"Ok\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}

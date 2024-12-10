@@ -1,0 +1,19 @@
+version: '3.8'
+
+services:
+  wiremock:
+    image: wiremock/wiremock:2.35.0 # Используем официальный образ
+    container_name: wiremock_service
+    ports:
+      - "8080:8080" # Открываем порт для доступа к WireMock
+    volumes:
+      - ./mappings:/home/wiremock/mappings   # Директория для маппинга запросов
+      - ./__files:/home/wiremock/__files     # Директория для статических файлов
+    environment:
+      - JAVA_OPTS=-Dcom.github.tomakehurst.wiremock.global-response-templating=true # Включаем шаблонизацию
+    networks:
+      - shared_network
+
+networks:
+  shared_network:
+    external: true

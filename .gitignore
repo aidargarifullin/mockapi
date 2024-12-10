@@ -1,0 +1,13 @@
+# Ignore dynaconf secret files
+.secrets.*
+result
+*.pyc
+.env
+.venv
+*.log
+env
+
+uploads
+
+
+.idea

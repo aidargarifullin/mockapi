@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/netim"
+  },
+  "response": {
+    "status": 200,
+    "body": "{\"service\": \"Netim\", \"status\": \"Ok\"}",
+    "headers": {
+      "Content-Type": "application/json"
+    }
+  }
+}
